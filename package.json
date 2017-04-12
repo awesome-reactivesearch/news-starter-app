@@ -22,7 +22,7 @@
     "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
-    "webpack-dev-server": "webpack-dev-server --inline --hot --port 8000",
+    "webpack-dev-server": "webpack-dev-server --inline --hot --port 8001",
     "dev": "webpack -d --watch",
     "start": "npm-run-all --parallel dev webpack-dev-server",
     "build": "webpack -p"
